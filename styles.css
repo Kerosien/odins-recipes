@@ -1,8 +1,39 @@
-div {
-     color: white;
-     background-color: black;
+.main {
+     font-family: 'Times New Roman', Times, serif;
+     background-color: darkgrey;
 }
 
-p {
-     color: red;
+.head {
+     background-color: aqua;
+     text-align: center;
+     color: black;
+     font-size: 32px;
+     }
+
+.butto, .back-butto {
+     background-color: lightskyblue;
+     font-weight: bold;
+     font-size: larger;
+     text-align: center;
+     }
+
+.ul, .ol {
+     font-size: 22px;
+}
+
+.ing, .dir {
+     font-weight: 800;
+     text-align: center;
+     background-color: aqua;
+}
+
+.pic {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 25%;
+}
+
+.dov {
+     text-align: center;
 }
