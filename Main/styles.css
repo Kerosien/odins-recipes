@@ -10,12 +10,16 @@
      font-size: 32px;
      }
 
-.butto, .back-butto {
+button {
      background-color: lightskyblue;
      font-weight: bold;
      font-size: larger;
      text-align: center;
      }
+
+.text-center {
+     text-align: center;
+}
 
 .ul, .ol {
      font-size: 22px;
