@@ -1,3 +1,4 @@
+
 .main {
      font-family: 'Times New Roman', Times, serif;
      background-color: darkgrey;
@@ -23,6 +24,12 @@ button {
 
 .ul, .ol {
      font-size: 22px;
+     font-weight: bold;
+     list-style-position: inside;
+}
+
+.ol {
+     list-style-type: upper-roman;
 }
 
 .ing, .dir {
@@ -36,6 +43,14 @@ button {
      margin-left: auto;
      margin-right: auto;
      width: 25%;
+}
+
+.pic2 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 10cm;
+     height: 12cm;
 }
 
 .dov {
