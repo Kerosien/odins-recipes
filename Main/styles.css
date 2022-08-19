@@ -1,7 +1,6 @@
 
 .main {
      font-family: 'Times New Roman', Times, serif;
-     background-color: darkgrey;
 }
 
 .head {
@@ -9,6 +8,10 @@
      text-align: center;
      color: black;
      font-size: 32px;
+     border: 5px solid black;
+     margin: auto;
+     padding: 50px;
+     width: auto;
      }
 
 button {
@@ -20,32 +23,49 @@ button {
 
 .text-center {
      text-align: center;
+     outline-style: solid;
+     outline-width: 5px;
+     background-color: darkgray;
+     padding: 1px;
+     margin: auto;
 }
 
-.ul, .ol {
+.ingredients-list, .directions-list {
      font-size: 22px;
      font-weight: bold;
      list-style-position: inside;
+     width: 500px;
+     border: 5px solid black;
+     padding: 50px;
+     margin: auto;
+     background-color: darkgray;
+     
 }
 
-.ol {
+.directions-list {
      list-style-type: upper-roman;
 }
 
-.ing, .dir {
+.ingredients, .directions {
      font-weight: 800;
      text-align: center;
      background-color: aqua;
+     border: 2px solid black;
+     margin: auto;
+     padding: 2px;
+     width: auto;
+
 }
 
-.pic {
+.top-pic {
      display: block;
      margin-left: auto;
      margin-right: auto;
      width: 25%;
+     border: 2px solid black;
 }
 
-.pic2 {
+.top-pic2 {
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -53,6 +73,27 @@ button {
      height: 12cm;
 }
 
-.dov {
+.top-text {
+     color: white;
      text-align: center;
+     font-weight: bold;
+     border: 1px solid blueviolet;
+     background-color: black;
+     margin-left: auto;
+     margin-right: auto;
+     width: 500px;
+}
+
+.main-list {
+     list-style: none;
+}
+
+.footer-text {
+     text-align: center;
+}
+
+.back-button {
+     text-align: center;
+     padding: 1px;
+     margin: auto;
 }
