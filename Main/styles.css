@@ -21,6 +21,10 @@ button {
      text-align: center;
      }
 
+button:hover {
+     background-color: yellow;
+}
+
 .text-center {
      text-align: center;
      outline-style: solid;
